@@ -1,0 +1,5 @@
+#!/bin/sh
+
+docker run -ti -v $(pwd)/www:/var/www/html -p 80:80 centos/apache /bin/bash
+
+
